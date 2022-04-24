@@ -1,0 +1,25 @@
+{
+  "name": "valko-wp-starter-theme",
+  "version": "1.0.0",
+  "description": "WordPress Starter Theme",
+  "license": "GPL-2.0-or-later",
+  "author": "Oleg Valko <oleg@valko.pro>",
+  "main": "assets/js/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valko-pro/valko-wp-starter-theme"
+  },
+  "scripts": {
+    "dev": "npx mix",
+    "watch": "npx mix watch",
+    "production": "npx mix --production"
+  },
+  "devDependencies": {
+    "laravel-mix": "^6.0.43",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "css-mqpacker": "^7.0.0"
+  },
+  "dependencies": {
+  }
+}

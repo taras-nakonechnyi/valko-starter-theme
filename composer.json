@@ -1,0 +1,28 @@
+{
+    "name": "valko-pro/wp-starter-theme",
+    "description": "VALKO.PRO Starter Theme",
+    "license": "GNU General Public License v2 or later",
+    "authors": [
+        {
+            "name": "Oleg Valko",
+            "email": "oleg@valko.pro"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Valko_ST\\": "includes"
+        }
+    },
+    "require": {
+        "rdlowrey/auryn": "^1.4"
+    },
+    "require-dev": {
+        "wp-coding-standards/wpcs": "^2.3.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^v0.7.1",
+        "phpcompatibility/php-compatibility": "^9.3.1"
+    },
+    "scripts": {
+        "cs": "phpcs --standard=.phpcs.xml .",
+        "cbf": "phpcbf --standard=.phpcs.xml ."
+    }
+}
